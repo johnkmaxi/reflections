@@ -5,3 +5,15 @@ What happens when you initialize a repository? Why do you need to do it?
   different versions of the files that have been committed. The repository must
   be initialized so that the metadata about the files can be stored in the
   .git folder.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+  The staging area is kind of a weird place. It holds files that haven't been
+  committed yet, but the files are still being worked on. I haven't decided
+  if the files in the staging area are being tracked? I think it means the files
+  are being tracked now that they are in the staging area. Thus, when those files
+  are committed, there is metadata available about them. So, I'm not sure what
+  value it adds yet. I guess the assumption is that you create a file and then
+  add it to the staging area, so there hasn't been sufficient work done on the
+  file to justify making a commit. By adding the file to the staging area,
+  data about the changes can be tracked leading up to the first commit.
