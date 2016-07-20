@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+  Initializing a repository creates a .git folder in the folder/directory/repository.
+  The .git folder is hidden form normal view because it has a '.' in front of the
+  file name. The .git folder holds the metadata that will keep track of the
+  different versions of the files that have been committed. The repository must
+  be initialized so that the metadata about the files can be stored in the
+  .git folder.
