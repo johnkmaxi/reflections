@@ -17,3 +17,11 @@ What value do you think it offers?
   add it to the staging area, so there hasn't been sufficient work done on the
   file to justify making a commit. By adding the file to the staging area,
   data about the changes can be tracked leading up to the first commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+  The staging area shows the files that are ready to be committed. I can keep track
+  of the files in the staging area to be sure that I can explain all the files
+  in single commit comment. If they files are to big for one logical explanation, I
+  can remove the necessary files from the staging area so that they are not included
+  in the commit. Essentially, the staging area gives me a place to review the work
+  I have done before making the changes permanent commits.
