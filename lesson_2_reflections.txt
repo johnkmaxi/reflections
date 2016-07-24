@@ -52,3 +52,12 @@ the diagram the way we do?
   on the changes that were present in the most common parent commit. The merge
   is represented as the creation of a new branch because the both branches
   become one.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+  Pros for automatic: easy, consistent rule for how the merge is created
+  Cons for automatic: possible to come across conflicts that must be dealt
+  with manually, less control of the content of the file
+  Pros for manual: total control over content of the file, ensures correct
+  parts are of code are merged.
+  Cons for manual: time consuming, not always necessary
