@@ -25,3 +25,30 @@ How can you use the staging area to make sure you have one commit per logical ch
   can remove the necessary files from the staging area so that they are not included
   in the commit. Essentially, the staging area gives me a place to review the work
   I have done before making the changes permanent commits.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+  Branches would be good for any experimental changes to a project, or changes to a
+  project that would lead to a different end-point from where the master branch
+  is intended to go. For instance, making totally different versions of the same
+  game (like was done when changing how many pieces the asteroids split into).
+  Maybe I'm in a situation in which I want the game to have a different ending.
+  Maybe I'm a situation in which I want to change the type of data that a
+  function or class accepts as input. The branches would help from getting those
+  versions mixed or from breaking the original version.
+
+How do the diagrams help you visualize the branch structure?
+  Visualizing the diagrams helps me see how there is structure and pattern
+  to commits. The diagram shows how commits and branches trace the development
+  of the project over time. The project can split into multiple directions,
+  but Git always lets you trace your way back. The diagrams also make it easier
+  to understand what Git checkout does. I can hop from point to point on the
+  structure and I understand what happens when doing an "orphan" checkout.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+  Merging two branches together merges the changes between the two branches
+  and combines the branches into a single branch. The changes to keep are based
+  on the changes that were present in the most common parent commit. The merge
+  is represented as the creation of a new branch because the both branches
+  become one.
