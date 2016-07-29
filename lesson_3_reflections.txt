@@ -24,3 +24,13 @@ one instead of another?
   a local computer or between Github and a local computer. A branch is when you
   split off from the master branch of file's version history. This allows for
   a person to make changes and explore without 'breaking' the original file.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+  The local copy acts like a backup. Even though other changes might be added
+  remotely, the local file acts as a link between the new files and the old
+  files. This would make it easier to catch up the old version to the new
+  version, or would allow the puller/fetcher to keep the new changes on a
+  separate branch so as not to overwrite the original file with the new changes
+  if that now represents a diverging point for the project.
