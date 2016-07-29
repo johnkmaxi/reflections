@@ -13,4 +13,14 @@ automatically stay up-to-date with your remote repository?
   changes are always pulled automatically it might mess up the local files.
   Being able to have control over what files are moved from the remote to the
   local branch would prevent things from getting over-written accidentally.
-  
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+  A fork is creating a clone on the Git servers between someone elses files
+  and your own GitHub account. The fork allows you to make changes to the file
+  without affecting the original file while still giving the original author
+  credit. A clone is copying a repository whether from one place to another on
+  a local computer or between Github and a local computer. A branch is when you
+  split off from the master branch of file's version history. This allows for
+  a person to make changes and explore without 'breaking' the original file.
