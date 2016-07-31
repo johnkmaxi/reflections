@@ -34,3 +34,18 @@ stored locally?
   version, or would allow the puller/fetcher to keep the new changes on a
   separate branch so as not to overwrite the original file with the new changes
   if that now represents a diverging point for the project.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+  In my experience, collaborating without using Git or GitHub has involved
+  emailing documents back and forth, or using a Google Drive account that
+  allows multiple users to make modifications to the same documents. These
+  work OK for what I have had to do (write word documents), but they are
+  severely lacking for coding projects. It would definitely be harder to keep
+  track of the life of a project emailing the files back and forth. Using Google
+  Drive is slightly better, but all users still wouldn't be able to see the
+  past versions of the file. Of split the project into multiple branches. What
+  is easier about the emailing method is that no one has to use any command
+  line functions or do anything that even remotely seems like coding. The people
+  I work with would not be able to handle that! 
